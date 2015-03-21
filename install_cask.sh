@@ -9,18 +9,25 @@ brew cask update
 
 echo '==> Installing apps...'
 apps=(
+  adium
   appcleaner
+  bittorrent-sync
+  dash
   dropbox
   firefox
   flux
+  google-drive
   google-chrome
+  menumeters
+  realvnc
   serf
   skype
   transmission
   transmit
   vagrant
-  virtualbox
+  # virtualbox
   vlc
+  xquartz
 )
 brew cask install --appdir='/Applications' ${apps[@]}
 

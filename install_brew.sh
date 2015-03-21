@@ -20,17 +20,27 @@ binaries=(
   bash-completion
   boot2docker
   cheat
-  consul
+  checkbashisms
+  # consul
+  chromedriver
   ctags
   curl
   docker
+  # docker-completion
+  elixir
   emacs
+  erlang
   ffmpeg
+  fleetctl
   git
+  gnu-prolog
   go
   graphicsmagick
+  heroku-toolbelt
   hub
+  imagemagick
   ispell
+  leiningen
   mackup
   markdown
   midnight-commander
@@ -39,14 +49,15 @@ binaries=(
   node
   packer
   postgresql
+  pow
   python
   redis
   ruby-completion
+  terminal-notifier
   terraform
   the_silver_searcher
   tig
   tree
-  vagrant
   vagrant-completion
   wget
 )
