@@ -14,28 +14,29 @@ brew update
 echo '==> Upgrading existing recipes...'
 brew upgrade
 
+echo '==> Tapping completions...'
+brew tap homebrew/completions
+
 echo '==> Installing binaries...'
 binaries=(
   ack
   bash-completion
   boot2docker
+  bundler-completion
   cheat
   checkbashisms
-  # consul
   chromedriver
   ctags
   curl
   docker
-  # docker-completion
+  docker-completion
   elixir
-  emacs
+  emacs --with-cocoa
   erlang
   ffmpeg
-  fleetctl
   git
-  gnu-prolog
   go
-  graphicsmagick
+  gpg
   heroku-toolbelt
   hub
   imagemagick
@@ -43,18 +44,17 @@ binaries=(
   leiningen
   mackup
   markdown
-  midnight-commander
   mongodb
-  mysql
   node
-  packer
   postgresql
   pow
   python
+  rebar
   redis
+  rake-completion
+  rails-completion
   ruby-completion
   terminal-notifier
-  terraform
   the_silver_searcher
   tig
   tree
