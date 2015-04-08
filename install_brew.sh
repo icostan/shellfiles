@@ -44,7 +44,6 @@ binaries=(
   leiningen
   mackup
   markdown
-  memcached
   mongodb
   node
   postgresql
