@@ -12,6 +12,7 @@ apps=(
   adium
   appcleaner
   bittorrent-sync
+  consul
   dash
   dropbox
   firefox
@@ -19,15 +20,17 @@ apps=(
   google-drive
   google-chrome
   menumeters
+  packer
   realvnc
   serf
   skype
+  swi-prolog
+  terraform
   transmission
   transmit
   vagrant
-  # virtualbox
+  virtualbox
   vlc
-  xquartz
 )
 brew cask install --appdir='/Applications' ${apps[@]}
 
